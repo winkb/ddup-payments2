@@ -1,31 +1,31 @@
 {
-  "name": "ddup/payments",
-  "description": "wechat alipay upay fypay",
-  "type": "library",
-  "keywords": [
-    "ddup",
-    "payment",
-    "支付",
-    "聚合支付"
-  ],
-  "require": {
-    "ddup/part": "^1.3",
-    "pimple/pimple": "^3.2",
-    "ddup/logger": "^1.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Ddup\\Payments\\": "src",
-      "Ddup\\Payments\\Test\\": "test"
-    }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7.5"
-  },
-  "authors": [
-    {
-      "name": "xingbo.li",
-      "email": "1711293058@qq.com"
-    }
-  ]
+    "name": "ddup/payments2",
+    "description": "wechat alipay upay fypay",
+    "type": "library",
+    "keywords": [
+        "ddup",
+        "payment",
+        "支付",
+        "聚合支付"
+    ],
+    "require": {
+        "ddup/part": "^1.3",
+        "pimple/pimple": "^3.2",
+        "ddup/logger": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ddup\\Payments\\": "src",
+            "Ddup\\Payments\\Test\\": "test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "xingbo.li",
+            "email": "1711293058@qq.com"
+        }
+    ]
 }
